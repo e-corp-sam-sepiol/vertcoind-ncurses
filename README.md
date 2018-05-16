@@ -1,19 +1,45 @@
-# bitcoind-ncurses2 v0.3.1
+# vertcoind-ncurses2 v0.3.1
 
-Python ncurses front-end for bitcoind. Uses the JSON-RPC API.
+Based on esotericnonsense's Python ncurses front-end for bitcoind. Uses the JSON-RPC API.
+Adapted to display vertcoind data. Thank you for your incredible work esotericnonsense,
+this would not be possible without you.
 
 ![ScreenShot](/img/bitcoind-ncurses2.gif)
 
 - esotericnonsense (Daniel Edgecumbe)
 
+Donations
+---------
+
+If you have found esotericnonsense's bitcoind-ncurses2 useful, please consider donating.
+
+All funds go towards the operating costs of his hardware and future
+Bitcoin development projects.
+
+https://github.com/esotericnonsense/bitcoind-ncurses2
+
+![ScreenShot](/img/3BYFucUnVNhZjUDf6tZweuZ5r9PPjPEcRv.png)
+
+Feedback
+--------
+
+Please report any problems using the Github issue tracker. Pull requests are
+also welcomed.
+The author, esotericnonsense, can often be found milling around on #bitcoin
+(Freenode).
+
+**bitcoin 3BYFucUnVNhZjUDf6tZweuZ5r9PPjPEcRv**
+
+
 ## Dependencies
 
 * Developed with python 3.6.2, Bitcoin Core 0.15.0.1
+* Adapted to Vertcoin Core Vertcoin Core Daemon version v0.12.0.0-d2a8ef4
 * PyPi packages: aiohttp and async-timeout (see requirements.txt)
 
 ## Features
 
-* Updating monitor mode showing bitcoind's status, including:
+* Updating monitor mode showing vertcoind's status, including:
 * Current block information: hash, height, fees, timestamp, age, diff, ...
 * Basic block explorer with fast seeking, no external DB required
 * Basic transaction viewer with fast seeking, best with -txindex=1
@@ -26,11 +52,11 @@ Python ncurses front-end for bitcoind. Uses the JSON-RPC API.
 ## Installation and usage
 
 ```
-git clone https://github.com/esotericnonsense/bitcoind-ncurses2
+git clone https://github.com/e-corp-sam-sepiol/vertcoind-ncurses.git
 ```
 
 ```
-pip3 install -r bitcoind-ncurses2/requirements.txt
+pip3 install -r vertcoind-ncurses2/requirements.txt
 ```
 or, on Arch Linux:
 ```
@@ -38,12 +64,12 @@ pacman -S python-aiohttp python-async-timeout
 ```
 
 ```
-cd bitcoind-ncurses2
+cd vertcoind-ncurses2
 python3 main.py
 ```
 
-bitcoind-ncurses2 will automatically use the cookie file available in
-~/.bitcoin/, or the RPC settings in ~/.bitcoin/bitcoin.conf. To use a different
+vertcoind-ncurses2 will automatically use the cookie file available in
+~/.vertcoin/, or the RPC settings in ~/.vertcoin/vertcoin.conf. To use a different
 datadir, specify the --datadir flag:
 
 ```
@@ -53,22 +79,3 @@ python3 main.py --datadir /some/path/to/your/datadir
 This is an early development release and a complete rewrite of the original
 bitcoind-ncurses. Expect the unexpected.
 
-Feedback
---------
-
-Please report any problems using the Github issue tracker. Pull requests are
-also welcomed.
-The author, esotericnonsense, can often be found milling around on #bitcoin
-(Freenode).
-
-Donations
----------
-
-If you have found bitcoind-ncurses2 useful, please consider donating.
-
-All funds go towards the operating costs of my hardware and future
-Bitcoin development projects.
-
-![ScreenShot](/img/3BYFucUnVNhZjUDf6tZweuZ5r9PPjPEcRv.png)
-
-**bitcoin 3BYFucUnVNhZjUDf6tZweuZ5r9PPjPEcRv**
