@@ -4,7 +4,7 @@ Based on esotericnonsense's Python ncurses front-end for bitcoind. Uses the JSON
 Adapted to display vertcoind data. Thank you for your incredible work esotericnonsense,
 this would not be possible without you.
 
-![ScreenShot](/img/bitcoind-ncurses2.gif)
+![ScreenShot](/img/vertcoind-ncurses.gif)
 
 - esotericnonsense (Daniel Edgecumbe)
 
