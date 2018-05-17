@@ -125,7 +125,7 @@ class MonitorView(view.View):
 
         total_fees = Decimal(reward) - block_subsidy
 
-        self._pad.addstr(4, 1, "Block reward: {:.6f} BTC".format(
+        self._pad.addstr(4, 1, "Block reward: {:.6f} VTC".format(
             reward))
 
         if len(bb["tx"]) > 1:
@@ -141,7 +141,7 @@ class MonitorView(view.View):
                 sat_per_kb = ((total_fees * 1024) / total_tx_size) * 100000000
             else:
                 sat_per_kb = 0
-            self._pad.addstr(4, 34, "Fees: {: 8.6f} BTC ({: 6.2f}%, avg {: 6.2f} mBTC/tx, ~{: 7.0f} sat/kB)".format(total_fees, fee_pct, mbtc_per_tx, sat_per_kb))
+            self._pad.addstr(4, 34, "Fees: {: 8.6f} VTC ({: 6.2f}%, avg {: 6.2f} mVTC/tx, ~{: 7.0f} sat/kB)".format(total_fees, fee_pct, mbtc_per_tx, sat_per_kb))
 
         self._draw_pad_to_screen()
 
