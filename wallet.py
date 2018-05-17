@@ -60,7 +60,7 @@ class WalletView(view.View):
                     isoformatseconds(datetime.datetime.utcfromtimestamp(tx["timereceived"]))
                 ), color)
                 self._pad.addstr(2+((i-offset)*3), 30, "block: {: 7d}".format(tx["blockindex"]), color)
-                self._pad.addstr(2+((i-offset)*3), 81, "{: 15.8f} BTC".format(
+                self._pad.addstr(2+((i-offset)*3), 81, "{: 15.8f} VTC".format(
                     tx["amount"],
                 ), color)
                 self._pad.addstr(2+((i-offset)*3)+1, 1, "{}".format(tx["address"]), color)
