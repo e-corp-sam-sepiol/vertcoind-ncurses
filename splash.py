@@ -10,16 +10,16 @@ from macros import MIN_WINDOW_SIZE, DEFAULT_MODE
 import time
 
 splash_array = [
-"																	",
-"BBB     BBB                  BBB                    BBB          	",
-"BBB     BBB                  BBB                    BBB          	",
-"BBB     BBB                  BBB                                 	",
-"BBBB   BBBB  BBBBBB  BBBBBBB BBBBBB BBBBBBB BBBBBB  BBB BBBBBBB  	",
-" BBBB BBBB  BBB  BBB BBBBB   BBB   BBBBB   BBBBBBBB BBB BBB BBBB 	",
-"  BBBoBBB   BBBBBBBB BBB     BBB   BBB     BBB  BBB BBB BBB  BBB 	",
-"   BBBBB    BBBB     BBB     BBBBB BBBBB   BBBBBBBB BBB BBB  BBB 	",
-"    BBB      BBBBBB  BBB      BBBBB BBBBBBB BBBBBB  BBB BBB  BBB 	",
-"                                          n c u r s e s 			",     										
+    " BB     BB BBBBBBBB BBBBBBBB  BBBBBBBB  BBBBBB   BBBBBBB  BBBB BB    BB ",
+    " BB     BB BB       BB     BB    BB    BB    BB BB     BB  BB  BBB   BB ",
+    " BB     BB BB       BB     BB    BB    BB       BB     BB  BB  BBBB  BB ",
+    " BB     BB BBBBBB   BBBBBBBB     BB    BB       BB     BB  BB  BB BB BB ",
+    "  BB   BB  BB       BB   BB      BB    BB       BB     BB  BB  BB  BBBB ",
+    "   BB BB   BB       BB    BB     BB    BB    BB BB     BB  BB  BB   BBB ",
+    "    BBB    BBBBBBBB BB     BB    BB     BBBBBB   BBBBBBB  BBBB BB    BB ",
+    "                                                ------------------------",
+    "                                                   n c u r s e s        ",
+    "                                                ------------------------",
 ]
 width = len(splash_array[0])
 height = len(splash_array)
