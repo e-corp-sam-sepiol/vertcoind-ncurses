@@ -1,4 +1,4 @@
-# vertcoind-ncurses2 v0.3.1
+# vertcoind-ncurses v0.3.1
 
 Based on esotericnonsense's Python ncurses front-end for bitcoind. Uses the JSON-RPC API.
 Adapted to display vertcoind data. Thank you for your incredible work esotericnonsense,
@@ -7,6 +7,7 @@ this would not be possible without you.
 ![ScreenShot](/img/vertcoind-ncurses.gif)
 
 - esotericnonsense (Daniel Edgecumbe)
+- Sam Sepiol - Modifications made to enable vertcoind support
 
 Donations
 ---------
