@@ -70,7 +70,7 @@ cd vertcoind-ncurses/
 python3 main.py
 ```
 
-vertcoind-ncurses2 will automatically use the cookie file available in
+vertcoind-ncurses will automatically use the cookie file available in
 ~/.vertcoin/, or the RPC settings in ~/.vertcoin/vertcoin.conf. To use a different
 datadir, specify the --datadir flag:
 
