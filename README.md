@@ -57,7 +57,8 @@ git clone https://github.com/e-corp-sam-sepiol/vertcoind-ncurses.git
 ```
 
 ```
-pip3 install -r vertcoind-ncurses2/requirements.txt
+cd vertcoind-ncurses/
+pip3 install -r requirements.txt
 ```
 or, on Arch Linux:
 ```
@@ -77,6 +78,6 @@ datadir, specify the --datadir flag:
 python3 main.py --datadir /some/path/to/your/datadir
 ```
 
-This is an early development release and a complete rewrite of the original
+This is an early development release and based on a complete rewrite of the original
 bitcoind-ncurses. Expect the unexpected.
 
