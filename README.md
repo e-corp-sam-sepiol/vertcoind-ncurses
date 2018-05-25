@@ -66,7 +66,7 @@ pacman -S python-aiohttp python-async-timeout
 ```
 
 ```
-cd vertcoind-ncurses2
+cd vertcoind-ncurses/
 python3 main.py
 ```
 
