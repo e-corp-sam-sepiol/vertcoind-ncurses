@@ -57,6 +57,7 @@ git clone https://github.com/e-corp-sam-sepiol/vertcoind-ncurses.git
 ```
 
 ```
+sudo apt-get install python3 python3-pip
 cd vertcoind-ncurses/
 pip3 install -r requirements.txt
 ```
